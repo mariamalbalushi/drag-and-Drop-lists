@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+}
+
+.task{
+  position: relative;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+    position: absolute;
+    top :0;
+    right: 0;
+
+
+    background: red;
+    color: white;
+    text-align: center;
+
+  font-size: x-small;
+    float: right;
+}
+
